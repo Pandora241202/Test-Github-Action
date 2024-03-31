@@ -12,7 +12,7 @@ export default function Page({ params }: Params) {
   return ( 
     <>
       <h1>Slug: {params.slug}</h1> 
-      <p>Hello From Me</p>
+      <p>Hello From Heaven</p>
     </>
   )
 }
