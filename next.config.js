@@ -5,9 +5,11 @@
 const nextConfig = {
   output: 'export',
   env: {
-    NEXT_TELEMETRY_DISABLED: '1',
+    NEXT_TELEMETRY_DISABLED: 1,
   },
   images: {
     unoptimized: true
   },
 };
+
+module.exports = nextConfig
