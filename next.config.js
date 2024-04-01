@@ -1,5 +1,5 @@
 module.exports = {
   env: {
-    NEXT_TELEMETRY_DISABLED=1,
+    NEXT_TELEMETRY_DISABLED: 1,
   },
 };
