@@ -1,4 +1,5 @@
 module.exports = {
-  // other Next.js configuration options
-  telemetry: false,
+  env: {
+    NEXT_TELEMETRY_DISABLED: '1',
+  },
 };
